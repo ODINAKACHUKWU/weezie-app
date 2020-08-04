@@ -1,18 +1,17 @@
 import React, { Component } from "react";
-// import Header from "../components/elements/Header";
-// import Intro from "../components/elements/Intro";
+import LoginForm from "../components/LoginForm";
 
 // Styles
-// import "../../assets/stylesheets/components/elements/background.scss";
+import "../assets/stylesheets/login.scss";
 
-class HomePage extends Component {
+class LoginPage extends Component {
   render() {
     return (
-      <div>
-        <h1 className="text-center">Started</h1>
+      <div className="background">
+        <LoginForm />
       </div>
     );
   }
 }
 
-export default HomePage;
+export default LoginPage;

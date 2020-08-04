@@ -1,0 +1,35 @@
+.background {
+  background-image: url(../images/background.svg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+.form {
+  background-color: #f7fafc;
+}
+
+h1.title {
+  font-size: 25px;
+}
+
+.link {
+  font-size: 13px;
+}
+
+p.link a {
+  color: #11cdef;
+}
+
+.btn-blue {
+  background-color: #11cdef !important;
+  color: white !important;
+  padding: 0.45rem 1.2rem !important;
+}
+
+.btn-blue:hover {
+  background-color: #172b4d !important;
+  color: white !important;
+}
