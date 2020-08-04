@@ -56,10 +56,7 @@ class SideNav extends Component {
             <img src={closeHamburger} width="20" alt="Close hamburger" />
           </a>
         </div>
-        <a
-          className="nav-link d-flex text-dark mb-3 active"
-          href="dashboard.html"
-        >
+        <a className="nav-link d-flex text-dark mb-3 active" href="/dashboard">
           <img src={home} className="mr-4" width="20" alt="Home icon" />
           Home
         </a>

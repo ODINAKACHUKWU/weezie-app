@@ -24,7 +24,7 @@
 }
 
 .text-purple {
-  color: #7764e4;
+  color: #7764e4 !important;
 }
 
 .text-red {
@@ -46,8 +46,13 @@ a.active {
 
 a.active-page {
   background-color: #7764e4;
-  color: white;
+  color: white !important;
   border-color: #7764e4;
+  &:hover {
+    background-color: #7764e4;
+    color: white !important;
+    border-color: #7764e4;
+  }
 }
 
 .card p {
@@ -86,8 +91,8 @@ i.fa-home {
 }
 
 .card-img-top {
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
 }
 
 th {
@@ -95,19 +100,19 @@ th {
 }
 
 .report-btn {
-  color: #7764e4;
-  border: 1px solid #7764e4;
+  color: #7764e4 !important;
+  border: 1px solid #7764e4 !important;
 }
 
 .report-btn:hover {
-  background-color: #7764e4;
-  color: white;
-  border: 1px solid #7764e4;
+  background-color: #7764e4 !important;
+  color: white !important;
+  border: 1px solid #7764e4 !important;
 }
 
 .map-btn {
-  color: white;
-  background-color: #7764e4;
+  color: white !important;
+  background-color: #7764e4 !important;
 }
 
 .map-btn:hover {
@@ -120,8 +125,8 @@ th {
 }
 
 .filter {
-  line-height: 0.8;
-  padding: 0;
+  line-height: 0.8 !important;
+  padding: 0 !important;
 }
 
 .table {
@@ -173,7 +178,7 @@ th {
 }
 
 .page-link {
-  padding: 0.6rem 0.95rem;
+  padding: 0.6rem 0.95rem !important;
 }
 
 /* Sidenav */
