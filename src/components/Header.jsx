@@ -68,7 +68,7 @@ class Header extends Component {
                     src={portraitOne}
                     className="rounded-circle"
                     height="50"
-                    alt="Profile picture"
+                    alt="Profile"
                   />
                 </li>
                 <li className="nav-item navbar-text">
